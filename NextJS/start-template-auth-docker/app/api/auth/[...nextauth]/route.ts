@@ -30,7 +30,7 @@ export const authOption: NextAuthOptions = {
     ],
     session: {
       strategy: 'jwt'
-    }
+    },
   };
   
   const handler = NextAuth(authOption);
